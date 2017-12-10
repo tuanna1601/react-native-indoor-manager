@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-indoor-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Added IndoorAtlas support for React Native",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,13 @@
     "react-native",
     "indoor-atlas"
   ],
-  "url": "https://github.com/tuanna1601/react-native-indoor-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuanna1601/react-native-indoor-manager.git"    
+  },
+  "bugs": {
+    "url": "https://github.com/tuanna1601/react-native-indoor-manager"
+  },
   "email": "tuanna1601@gmail.com",
   "author": "Tuan Nguyen",
   "license": "BSD-3-Clause",
