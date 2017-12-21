@@ -35,6 +35,7 @@ public class RNIndoorManagerModule extends ReactContextBaseJavaModule {
             .emit(eventName, params);
   }
 
+  @ReactMethod
   public void initService() {
     getCurrentActivity().runOnUiThread(new Runnable() {
       @Override
