@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-indoor-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Added IndoorAtlas support for React Native",
   "main": "index.js",
   "scripts": {
