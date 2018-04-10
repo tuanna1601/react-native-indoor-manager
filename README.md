@@ -37,9 +37,16 @@
 
 ## Usage
 ```javascript
-import RNIndoorManager from 'react-native-indoor-manager';
+import { NativeEventEmitter } from 'react-native';
+import IndoorManager from 'react-native-indoor-manager';
 
-// TODO: What to do with the module?
-RNIndoorManager;
+// Create a React Native NativeEventEmitter
+const indoorEventEmitter = new NativeEventEmitter(IndoorManager);
+// Add listener
+indoorEventEmitter.addListener('locationChanged', location => {
+	// do things
+});
+// init Indoor Atlas service
+IndoorManager.initService(API_KEY, API_SECRET);
 ```
   
